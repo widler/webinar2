@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  db:
+    image: postgres:11.2-alpine
+    environment:
+      - POSTGRES_USER=praktikum
+      - POSTGRES_PASSWORD=praktikum
+      - POSTGRES_DB=praktikum
+    ports:
+      - "5432"

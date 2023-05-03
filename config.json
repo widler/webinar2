@@ -1,0 +1,5 @@
+{
+  "db_dsn": "postgres://praktikum:praktikum@172.19.0.2:5432/praktikum?sslmode=disable&connect_timeout=10&binary_parameters=yes",
+  "server_address": ":8080",
+  "migration_path": "file://./migrations"
+}
